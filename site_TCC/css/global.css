@@ -1,0 +1,29 @@
+.button {
+    
+    font-weight: 500;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+.button-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.button-primary:hover{
+    background-color: var(--quaternary);
+    border-color: var(--quaternary);
+}
+.btn-outline-primary{
+    
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-outline-primary:hover{
+    
+    background-color: var(--quaternary);
+    border-color: var(--quaternary);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
+}
+

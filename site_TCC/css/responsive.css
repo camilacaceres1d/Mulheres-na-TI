@@ -1,0 +1,52 @@
+@media (min-width: 992px){
+  #header.nav-bar-collapse{
+      margin-left: 15px;
+      margin-right: 15px;
+}
+}
+@media (max-width: 991.98px) {
+  #header .navbar-brand img{
+      max-width: 180px;
+}
+  #header.nav-bar-collapse{
+      width: 100%;
+}
+  #contato .email img {
+    width: 90px;
+    top: -40px;
+  }
+  
+}
+  
+@media (max-width: 767.98px) {
+  #slider h6 {
+    margin-top: 20px;
+    }
+  #slider h2{
+  margin-top: 80px;
+  }
+   #contato h2,h4{
+     font-weight: 12px;
+   }
+    
+
+     #contato .email {
+    padding: 60px 30px 50px 30px;
+  }
+  #contato .email form {
+    width: 100%;
+    flex-direction: column;
+  }
+  #contato ul {
+    padding-top: 30px;
+    justify-content: center;
+  }
+}
+
+
+
+  
+
+
+
+ 
